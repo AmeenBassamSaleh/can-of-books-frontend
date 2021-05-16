@@ -29,9 +29,7 @@ class App extends React.Component {
                 {/* TODO: if the user is logged in, render the `BestBooks` component, if they are not, render the `Login` component */}
               </Route>
               {/* TODO: add a route with a path of '/profile' that renders a `Profile` component */}
-              <Route exact path="/profile">
-              {this.props.auth0.isAuthenticated && <Profile/>}
-              </Route>
+              
             </Switch>
             <Footer />
           </IsLoadingAndError>
