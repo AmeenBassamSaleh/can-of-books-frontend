@@ -10,7 +10,7 @@ import {
 import BestBooks from './BestBooks'
 import { withAuth0 } from '@auth0/auth0-react';
 import Login from './Login';
-import Profile from './component/Profile';
+
 
 class App extends React.Component {
 
