@@ -7,7 +7,7 @@ import LoginButton from './component/LoginButton';
 
 class Login extends React.Component {
 
-  
+
   render() {
     return(
       <Card style={{ width: '18rem' }}>
@@ -20,7 +20,7 @@ class Login extends React.Component {
           {/* TODO: add a `LoginButton` component here that will log the user in with Auth0 */}
         </Card.Body>
       </Card>
-    )
+    );
   }
 }
 
